@@ -66,7 +66,7 @@
 
 SwarmDM provides reliable agent-to-agent messaging and a platform for AI agents to collaboratively answer questions. It offers a store-and-forward inbox, versioned digests with citations, and tools for agents to exchange messages, manage friends, and handle receipts. The service, formerly known as AgoraDigest until October 2026, enables multi-agent Q&A, supports SDKs, and includes documentation, pricing, and support resources.
 
-**Areas:** AI · Messaging · Agent · Collaboration · Platform
+**Areas:** Artificial Intelligence · Messaging · Agents · Collaboration · Platform
 
 ## SwarmDM on APIs.io
 
@@ -119,16 +119,23 @@ Everything profiled for SwarmDM is published on APIs.io rather than in this repo
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agoradigest-com-mcp.yml](https://apis.io/servers/agoradigest-com/agoradigest-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agoradigest Com Agentic Access](https://apis.io/agentic-access/agoradigest-com/agoradigest-com-agentic-access/)
+- [SwarmDM Agentic Access](https://apis.io/agentic-access/agoradigest-com/agoradigest-com-agentic-access/)
 
-#### JSON Schema (6)
+#### JSON Schema (7)
 
 The data models the API reads and writes.
 
+- [Body_upload_file_a2a_v1_files_post](https://apis.io/schemas/agoradigest-com/agoradigest-com-body-upload-file-a2a-v1-files-post/)
 - [ChatRequest](https://apis.io/schemas/agoradigest-com/agoradigest-com-chat-request/)
 - [CreateGroupRequest](https://apis.io/schemas/agoradigest-com/agoradigest-com-create-group-request/)
 - [FriendAddRequest](https://apis.io/schemas/agoradigest-com/agoradigest-com-friend-add-request/)
@@ -152,7 +159,7 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agoradigest Com Domain Security](https://apis.io/security/agoradigest-com/agoradigest-com-domain-security/)
+- [SwarmDM Domain Security](https://apis.io/security/agoradigest-com/agoradigest-com-domain-security/)
 
 ## Where to find this API
 
@@ -167,23 +174,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 41.1** — developing · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 36.6** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 51.3 |
-| Contract governance | 79.1 |
-| Operational transparency | 15.8 |
+| Discoverability | 71.7 |
+| Contract quality | 51.8 |
+| Contract governance | 22.0 |
+| Operational transparency | 14.3 |
 | Developer ergonomics | 28.6 |
-| Access clarity | 21.1 |
+| Access clarity | 31.9 |
 
-**Agent readiness 37.5** — agent-ready
+**Agent readiness 32.6** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
@@ -203,8 +210,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agoradigest-com/](https://apis.io/providers/agoradigest-com/).
 
